@@ -26,6 +26,8 @@ pipeline {
         }
     }
 }
+{
 if (isUnix()) --> sh "command"
 
      else --> bat "command"
+}
